@@ -158,7 +158,7 @@ function fonction_B(){
     sleep 2
     #wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap -b 1.5
     #curl -sL https://install.raspap.com | bash -s -- --yes --openvpn 1 --adblock 1 -r https://github.com/RaspAP/raspap-webgui -b 1.5
-    curl -sL https://install.raspap.com | bash -s -- --yes --openvpn 1 --adblock 1
+    curl -sL https://install.raspap.com | bash -s -- --yes --openvpn 1 --adblock 1 -r RaspAP/raspap-webgui -b 1.5
 }
 
 
